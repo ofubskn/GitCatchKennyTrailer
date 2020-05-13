@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4972A8A0246C0C550019939A /* catchTheCannyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catchTheCannyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4972A8A0246C0C550019939A /* catchTheKannyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catchTheKannyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4972A8A3246C0C550019939A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4972A8A5246C0C550019939A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4972A8A7246C0C550019939A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		4972A8A1246C0C550019939A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4972A8A0246C0C550019939A /* catchTheCannyGame.app */,
+				4972A8A0246C0C550019939A /* catchTheKannyGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = catchTheCannyGame;
 			productName = catchTheCannyGame;
-			productReference = 4972A8A0246C0C550019939A /* catchTheCannyGame.app */;
+			productReference = 4972A8A0246C0C550019939A /* catchTheKannyGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ouray.catchTheCannyGame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = catchTheKannyGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ouray.catchTheCannyGame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = catchTheKannyGame;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
